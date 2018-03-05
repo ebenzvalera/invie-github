@@ -10,27 +10,57 @@
                 padding: 0;
                 margin: 0;
             }
+            body {
+                background: #E5E7E9;
+            }
             header {
-                background: red;
+                background: #fff;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            .contenedor {
+                width: 80%;
+                margin: auto;
             }
             section {
-                background: blue;
+                background: #fff;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            .content-img {
+                width: 50%;
+                margin: 10px auto;
+            }
+            .img {
+                width: 100%;
             }
             footer {
-                background: yellow;
+                background: #273746;
+                padding: 10px;
+                color: #fff;
+                text-align: center;
             }
         </style>
     </head>
     
     <body>
-        <header>
-            <h1>Header</h1>
-        </header>
-        <section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vitae, eveniet libero enim numquam dolorem et deserunt provident consectetur veritatis, corporis tempora eos maxime magnam ipsum obcaecati debitis facilis autem?</p>
-        </section>
-        <footer>
-            <p>Footer</p>
-        </footer>
+       <div class="contenedor">
+            <header>
+               <nav>
+                   <img src="Logo.png" alt="">
+               </nav>
+            </header>
+            <section>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vitae, eveniet libero enim numquam dolorem et deserunt provident consectetur veritatis, corporis tempora eos maxime magnam ipsum obcaecati debitis facilis autem?</p>
+                <div class="content-img">
+                    <img class="img" src="img1.jpg" alt="">
+                </div>
+            </section>
+            <footer>
+                <p>Footer</p>
+            </footer>
+        </div>
     </body>
 </html>
