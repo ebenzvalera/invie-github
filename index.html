@@ -10,74 +10,25 @@
                 padding: 0;
                 margin: 0;
             }
-            body {
-                background: #E5E7E9;
+            img {
+                max-width: 100%;
+                vertical-align: top;
             }
-            h3 {
-                text-align: center;
+            #responsive {
+                display: none;
             }
-            header {
-                width: 100%;
-                background: #fff;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                position: fixed;
-                top: 0;
-            }
-            .logo {
-                width: 200px;
-            }
-            .contenedor {
-                width: 80%;
-                margin: auto;
-            }
-            section {
-                background: #fff;
-                padding: 10px;
-                margin: 95px 0px 10px 0px;
-            }
-            .content-img {
-                width: 50%;
-                margin: 10px auto;
-            }
-            .img {
-                width: 100%;
-            }
-            footer {
-                background: #273746;
-                padding: 10px;
-                color: #fff;
-                text-align: center;
+            @media screen and (max-width: 768px) {
+                #responsive {
+                    display: block;
+                } 
             }
         </style>
     </head>
     
     <body>
-        <header>
-            <nav>
-                <img class="logo" src="Logo.png" alt="">
-            </nav>
-        </header>
-       <div class="contenedor">
-            <section>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa vitae, eveniet libero enim numquam dolorem et deserunt provident consectetur veritatis, corporis tempora eos maxime magnam ipsum obcaecati debitis facilis autem?</p>
-                <h3>Celular</h3>
-                <div class="content-img">
-                    <img class="img" src="img1.jpg" alt="">
-                </div>
-                <h3>Versus</h3>
-                <div class="content-img">
-                    <img class="img" src="img2.jpg" alt="">
-                </div>
-                <h3>Escudo</h3>
-                <div class="content-img">
-                    <img class="img" src="img3.png" alt="">
-                </div>
-            </section>
-            <footer>
-                <p>Footer</p>
-            </footer>
-        </div>
+        <img src="invie-responsive.png" alt="" id="responsive">
+        <img src="header.jpg" alt="">
+        <img src="hero.jpg" alt="">
+        <img src="acustica.jpg" alt="">
     </body>
 </html>
